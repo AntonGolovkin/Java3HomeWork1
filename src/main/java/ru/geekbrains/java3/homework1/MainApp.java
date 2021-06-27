@@ -44,8 +44,8 @@ public class MainApp {
         System.out.println(Arrays.toString(arr));
     }
     public static <T> void asList(T[]arr){
-        ArrayList<T> alt = new ArrayList<>(Arrays.asList(arr));
-        
+        ArrayList<T> a_list = new ArrayList<>(Arrays.asList(arr));
+        System.out.println(a_list);
     }
 }
 
